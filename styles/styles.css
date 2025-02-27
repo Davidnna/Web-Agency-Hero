@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+    color: #020202;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+    padding: 0 0.5em;
+}
+
+/* Main */
+.hero {
+    background-image: url(../images/faded-office.png);
+    /* background-image: url(https://i.postimg.cc/BnspQS79/faded-office.png); */
+    background-size: cover;
+    padding:  1.2em 0 3.1em 1.9em;
+    border: 0.15em solid;
+    max-width: 36em;
+    margin: 2.5em auto;
+}
+
+/* Heading */
+.hero hgroup .title {
+    margin-bottom: 0.5em;
+    max-width: 7em;
+    font-weight: 800;
+    font-size: 2.25em;
+}
+
+.hero hgroup .text {
+    max-width: 15em;
+    font-size: 1.07em;
+    font-weight: 500;
+}
+
+.hero hgroup .text .underline {
+    color: blue;
+    border-bottom: 0.2em solid #0ea5e9;
+}
+
+/* Button */
+.hero .btn {
+    margin-top: 1em;
+    color: white;
+    font-weight: bold;
+    background-color: #0ea5e9;
+    border: none;
+    padding: 1.1em 2em;
+}
+
+/* Responsive Design */
+@media (max-width: 274px) {
+    .hero {
+        padding-left: 1.3em;
+    }
+
+    .hero hgroup .title {
+        font-size: 2em;
+    }
+}
